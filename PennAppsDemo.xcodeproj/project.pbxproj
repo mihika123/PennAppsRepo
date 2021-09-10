@@ -13,7 +13,8 @@
 		3A17249726E582A400363042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A17249526E582A400363042 /* Main.storyboard */; };
 		3A17249926E582A600363042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A17249826E582A600363042 /* Assets.xcassets */; };
 		3A17249C26E582A600363042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A17249A26E582A600363042 /* LaunchScreen.storyboard */; };
-		3A1724A626E81A6700363042 /* Coldplay - Viva La Vida (Official Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A1724A526E81A6700363042 /* Coldplay - Viva La Vida (Official Video).mp3 */; };
+		3A1724C826EADF9400363042 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1724C726EADF9400363042 /* RestAPI.swift */; };
+		3A1724CC26EADFB300363042 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1724CB26EADFB300363042 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		3A17249826E582A600363042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A17249B26E582A600363042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A17249D26E582A600363042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A1724A526E81A6700363042 /* Coldplay - Viva La Vida (Official Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coldplay - Viva La Vida (Official Video).mp3"; sourceTree = "<group>"; };
+		3A1724C726EADF9400363042 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		3A1724CB26EADFB300363042 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		3A17248E26E582A400363042 /* PennAppsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3A1724A426E81A5100363042 /* Music */,
 				3A17248F26E582A400363042 /* AppDelegate.swift */,
+				3A1724C626EADF7B00363042 /* API */,
 				3A17249126E582A400363042 /* SceneDelegate.swift */,
+				3A1724CB26EADFB300363042 /* Song.swift */,
 				3A17249326E582A400363042 /* ViewController.swift */,
 				3A17249526E582A400363042 /* Main.storyboard */,
 				3A17249826E582A600363042 /* Assets.xcassets */,
@@ -70,12 +73,12 @@
 			path = PennAppsDemo;
 			sourceTree = "<group>";
 		};
-		3A1724A426E81A5100363042 /* Music */ = {
+		3A1724C626EADF7B00363042 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				3A1724A526E81A6700363042 /* Coldplay - Viva La Vida (Official Video).mp3 */,
+				3A1724C726EADF9400363042 /* RestAPI.swift */,
 			);
-			path = Music;
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +141,6 @@
 				3A17249C26E582A600363042 /* LaunchScreen.storyboard in Resources */,
 				3A17249926E582A600363042 /* Assets.xcassets in Resources */,
 				3A17249726E582A400363042 /* Main.storyboard in Resources */,
-				3A1724A626E81A6700363042 /* Coldplay - Viva La Vida (Official Video).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1724C826EADF9400363042 /* RestAPI.swift in Sources */,
 				3A17249426E582A400363042 /* ViewController.swift in Sources */,
 				3A17249026E582A400363042 /* AppDelegate.swift in Sources */,
 				3A17249226E582A400363042 /* SceneDelegate.swift in Sources */,
+				3A1724CC26EADFB300363042 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
