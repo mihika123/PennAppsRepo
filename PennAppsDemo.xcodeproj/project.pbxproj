@@ -18,6 +18,7 @@
 		3A1724CF26EAFFD000363042 /* FilterCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1724CE26EAFFD000363042 /* FilterCollectionViewFlowLayout.swift */; };
 		3A1724D226ED1F8200363042 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1724D126ED1F8100363042 /* PlaylistCell.swift */; };
 		3A1724D526ED1FF600363042 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1724D426ED1FF600363042 /* FilterCollectionViewCell.swift */; };
+		3A1724D826ED404B00363042 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1724D726ED404B00363042 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		3A1724CE26EAFFD000363042 /* FilterCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		3A1724D126ED1F8100363042 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
 		3A1724D426ED1FF600363042 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A1724D726ED404B00363042 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				3A17249126E582A400363042 /* SceneDelegate.swift */,
 				3A1724CB26EADFB300363042 /* Song.swift */,
 				3A17249326E582A400363042 /* ViewController.swift */,
+				3A1724D726ED404B00363042 /* DetailViewController.swift */,
 				3A1724D126ED1F8100363042 /* PlaylistCell.swift */,
 				3A1724D426ED1FF600363042 /* FilterCollectionViewCell.swift */,
 				3A1724CE26EAFFD000363042 /* FilterCollectionViewFlowLayout.swift */,
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1724D826ED404B00363042 /* DetailViewController.swift in Sources */,
 				3A1724C826EADF9400363042 /* RestAPI.swift in Sources */,
 				3A1724D226ED1F8200363042 /* PlaylistCell.swift in Sources */,
 				3A17249426E582A400363042 /* ViewController.swift in Sources */,
